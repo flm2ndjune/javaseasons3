@@ -29,8 +29,8 @@ public class FewLinksClick {
 	@Test
 	public void fewLinksTest() throws InterruptedException
 	{
-		RelativeLocator
-		Thread.sleep(3000);
+		
+		//Thread.sleep(3000);
 		try
 		{
 			driver.findElement(By.xpath("(//*[local-name()='svg'])[2]")).click();
